@@ -78,7 +78,7 @@ public class KeycloakConfig extends KeycloakSpringBootConfigResolver {
 }
 ```
 Após a criação da classe, o projeto irá subir, porém ainda não vamos
-conseguir testar de fato as roles criadas no Keycloak para algum usuairo.
+conseguir testar de fato as roles criadas no Keycloak para algum usuário.
 Precisamos de mais uma classe, essa que herda de WebSecurityConfigurerAdapter,
 onde vamos poder fazer a ligação real da API com o Keycloak.
 
@@ -233,3 +233,8 @@ usuários criados no Keycloak no realm em questão.
 ### Requisições
 Após rodar a aplicação, você pode usar o Swagger para testar
 a API neste link: http://localhost:8080/swagger-ui.html
+
+
+## Referências
+- https://spring.io/
+- https://www.keycloak.org/
