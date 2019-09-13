@@ -5,7 +5,7 @@ so Spring Security, com as funcionalidades do Keycloak.
 
 ## INSTALL
 
-###Keycloak
+### Keycloak
 Você precisa baixar no site oficial do Keycloak o servidor. Sendo
 uma aplicação totalmente apartada, é só fazer download que já vai estar
 pronto para uso. O exemplo foi feito na versão 7.0.0
@@ -37,7 +37,7 @@ Path: ${KEYCLOAK_LOCAL}\server\keycloak-7.0.0\bin
 Execute o arquivo standalone.
 
 
-###API Spring
+### API Spring
 ```shell
 mvn clean install -U
 ```
